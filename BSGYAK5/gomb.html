@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>Bootstrap 4.1.3 alapstruktúra</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <style>
+        .pagination {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary">Foglalásaim</button>
+                    <button type="button" class="btn btn-secondary">Profilom</button>
+                    <button type="button" class="btn btn-secondary">Kijelentkezés</button>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-danger">
+                    Biztos, hogy törölni szeretné a foglalását? </div>
+                <span class="badge badge-danger">Figyelem!</span> A művelet nem vonható vissza! <br>
+
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-danger">Törlöm</button>
+                <button type="button" class="btn btn-primary">Mégsem</button>
+            </div>
+        </div>
+
+    </div>
+    <ul class="pagination">
+        <li class="page-item active"><a class="page-link" href="#" title="Gombok">1</a></li>
+        <li class="page-item"><a class="page-link" href="img.html" title="Képek">2</a></li>
+        <li class="page-item"><a class="page-link" href="nav.html" title="Menü">3</a></li>
+        <li class="page-item"><a class="page-link" href="table.html" title="Táblázat">4</a></li>
+        <li class="page-item"><a class="page-link" href="tipog.html" title="Tipográfia">5</a></li>
+        <li class="page-item"><a class="page-link" href="img.html" title="Képek">Next</a></li>
+        <li class="page-item"><a class="page-link" href="tipog.html" title="Tipográfia">Last</a></li>
+    </ul>
+</body>
+
+</html>
